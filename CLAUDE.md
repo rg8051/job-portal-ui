@@ -17,6 +17,7 @@ React 19 SPA using Vite 7, Tailwind CSS 4, and React Router 7. No TypeScript —
 
 Two layers of React Context:
 
+
 - **`src/context/`** — Core contexts: `AuthContext` (auth + dummy users + localStorage persistence), `JobContext` (applications, saved jobs, employer job CRUD), `ThemeContext`
 - **`src/contexts/`** — Data-fetching contexts: `JobsDataContext` (cached job list with 5-min TTL), `CompaniesContext`
 
